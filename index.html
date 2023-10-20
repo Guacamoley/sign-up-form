@@ -27,38 +27,51 @@
         </div>
         <div class="right-section">
             <div class="header">
-                <h2 class="header__message">This is not a real online service! You know you need something like this in
-                    your
-                    life to help you realize
-                    your deepest dreams. Sign up <em>now</em> to get started.</h2>
+                <h1 class="header__message">Sign up</h1>
                 <h2 class="header__calling">you know you want to.</h2>
             </div>
             <div class="signup">
                 <form action="/signup" method="post" class="signup__form">
-                    <h3 class="signup__form-title">Let's do this!</h3>
-                    <label for="first-name" class="signup__label">First Name</label>
-                    <input type="text" name="first-name" id="first-name" class="signup__input" required>
+                    <div class="input-group">
+                        <label for="first-name" class="signup__label">First Name</label>
+                        <input type="text" name="first-name" id="first-name" class="signup__input" required>
+                    </div>
 
-                    <label for="last-name" class="signup__label">Last Name</label>
-                    <input type="text" name="last-name" id="last-name" class="signup__input" required>
+                    <div class="input-group">
+                        <label for="last-name" class="signup__label">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" class="signup__input" required>
+                    </div>
 
-                    <label for="email" class="signup__label">Email</label>
-                    <input type="email" name="eamil" id="email" class="signup__input" required>
+                    <div class="input-group">
+                        <label for="email" class="signup__label">Email</label>
+                        <input type="email" name="email" id="email" class="signup__input" required>
+                    </div>
 
-                    <label for="phone-number" class="signup__label">Phone Number</label>
-                    <input type="number" name="phone-number" id="phone-number" class="signup__input" required>
+                    <div class="input-group">
+                        <label for="phone-number" class="signup__label">Phone Number</label>
+                        <input type="number" name="phone-number" id="phone-number" class="signup__input" required>
+                    </div>
 
-                    <label for="user-password" class="signup__label">Password</label>
-                    <input type="password" name="user-password" id="user-password" class="signup__input" required>
+                    <div class="input-group">
+                        <label for="user-password" class="signup__label">Password</label>
+                        <input type="password" name="user-password" id="user-password" class="signup__input" required>
+                    </div>
 
-                    <label for="confirm-password" class="signup__label">Confirm Password</label>
-                    <input type="password" name="confirm-password" id="confirm-password" class="signup__input" required>
+                    <div class="input-group">
+                        <label for="confirm-password" class="signup__label">Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" class="signup__input"
+                            required>
+                    </div>
+
 
                     <div class="signup__buttons">
                         <button type="submit" class="signup__button-create">Create Account</button>
 
-                        <label for="log-in" class="signup__button-label">Already have an account?</label>
-                        <button type="button" class="signup__button--login">Log in</button>
+                        <div class="signup__buttons-container">
+                            <small class="signup__login">Already have an account? <a href="#"
+                                    class="login">Login</a></small>
+                        </div>
+
                     </div>
                 </form>
             </div>
