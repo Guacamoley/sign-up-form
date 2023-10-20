@@ -6,7 +6,7 @@ This project is a simple web page designed for user sign-up with basic CSS anima
 
 - User-friendly sign-up form.
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; flex-direction: row;">
     <img src="assets/demo.png" alt="Image 1" style="width: 50%;">
     <img src="assets/small-screen-demo.png" alt="Image 2" style="width: 50%;">
 </div>
