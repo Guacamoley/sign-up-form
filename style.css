@@ -1,6 +1,6 @@
 :root{
     --main-background-color: #FFFFFF;
-    --background-section-color: #ffffff;
+    --background-section-color: #9b9b9b;
     --highlight-color: #FFEB3B;
     --accent-color: #D9534F;
     --primary-color: #00BCD4;
@@ -10,14 +10,30 @@
 body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 5%;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center the elements horizontally */
+    justify-content: center; /* Center the elements vertically */
+    text-align: center;
+    height: 50%; 
+    width: 50%;
+    border: 2px solid #b8b8b8; /* Border style for the signup form container */
+    padding: 20px; /* Padding to create space around the form */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow to the signup form container */
+    border-radius: 5%;
 }
 
 .background {
-    max-width: 30%;
-    height: 100%;
+    max-width: 35%;
     text-align: center;
     position: relative;
 }
@@ -25,17 +41,16 @@ body {
 .background__image {
     width: 100%;
     height: 100%;
-    background-size: cover;
 }
 
 .background__title {
-    position: absolute; 
-    top: 25%; 
+    position: absolute;
+    top: 25%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
     color: var(--background-section-color);
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
     padding: 40px 0;
 }
 
@@ -48,6 +63,14 @@ body {
     text-decoration: none;
 }
 
+a {
+    color: var(--background-section-color);
+}
+
 a:visited {
     color: var(--background-section-color);
+}
+
+.signup {
+    
 }

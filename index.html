@@ -15,51 +15,55 @@
 </head>
 
 <body>
-    <div class="background">
-        <img src="assets/background.jpg" alt="Background-Picture" class="background__image">
-        <h1 class="background__title">Bearded Dragon Fans</h1>
-        <div class="background__box"></div>
-        <p class="background__attribute">Photo by <a
-                href="https://unsplash.com/@zues_segami?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jesse
-                Cortez</a> on <a
-                href="https://unsplash.com/photos/haU65hfAi8k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-        </p>
-    </div>
-    <div class="header">
-        <h2 class="header__message">This is not a real online service! You know you need something like this in your
-            life to help you realize
-            your deepest dreams. Sign up <em>now</em> to get started.</h2>
-        <h2 class="header__calling">you know you want to.</h2>
-    </div>
-    <div class="signup">
-        <form action="/signup" method="post" class="signup__form">
-            <h3 class="signup__form-title">Let's do this!</h3>
-            <label for="first-name" class="signup__label">First Name</label>
-            <input type="text" name="first-name" id="first-name" class="signup__input" required>
-
-            <label for="last-name" class="signup__label">Last Name</label>
-            <input type="text" name="last-name" id="last-name" class="signup__input" required>
-
-            <label for="email" class="signup__label">Email</label>
-            <input type="email" name="eamil" id="email" class="signup__input" required>
-
-            <label for="phone-number" class="signup__label">Phone Number</label>
-            <input type="number" name="phone-number" id="phone-number" class="signup__input" required>
-
-            <label for="user-password" class="signup__label">Password</label>
-            <input type="password" name="user-password" id="user-password" class="signup__input" required>
-
-            <label for="confirm-password" class="signup__label">Confirm Password</label>
-            <input type="password" name="confirm-password" id="confirm-password" class="signup__input" required>
-
-            <div class="signup__buttons">
-                <button type="submit" class="signup__button-create">Create Account</button>
-
-                <label for="log-in" class="signup__button-label">Already have an account?</label>
-                <button type="button" class="signup__button--login">Log in</button>
+    <main>
+        <div class="left-section">
+            <div class="background">
+                <img src="assets/background.jpg" alt="Background-Picture" class="background__image">
+                <p class="background__attribute"><a
+                        href="https://www.freepik.com/free-vector/mobile-login-concept-illustration_4957136.htm#query=sign%20up%20page&position=31&from_view=search&track=ais">Image
+                        by storyset</a> on Freepik
+                </p>
             </div>
-        </form>
-    </div>
+        </div>
+        <div class="right-section">
+            <div class="header">
+                <h2 class="header__message">This is not a real online service! You know you need something like this in
+                    your
+                    life to help you realize
+                    your deepest dreams. Sign up <em>now</em> to get started.</h2>
+                <h2 class="header__calling">you know you want to.</h2>
+            </div>
+            <div class="signup">
+                <form action="/signup" method="post" class="signup__form">
+                    <h3 class="signup__form-title">Let's do this!</h3>
+                    <label for="first-name" class="signup__label">First Name</label>
+                    <input type="text" name="first-name" id="first-name" class="signup__input" required>
+
+                    <label for="last-name" class="signup__label">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" class="signup__input" required>
+
+                    <label for="email" class="signup__label">Email</label>
+                    <input type="email" name="eamil" id="email" class="signup__input" required>
+
+                    <label for="phone-number" class="signup__label">Phone Number</label>
+                    <input type="number" name="phone-number" id="phone-number" class="signup__input" required>
+
+                    <label for="user-password" class="signup__label">Password</label>
+                    <input type="password" name="user-password" id="user-password" class="signup__input" required>
+
+                    <label for="confirm-password" class="signup__label">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" class="signup__input" required>
+
+                    <div class="signup__buttons">
+                        <button type="submit" class="signup__button-create">Create Account</button>
+
+                        <label for="log-in" class="signup__button-label">Already have an account?</label>
+                        <button type="button" class="signup__button--login">Log in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
