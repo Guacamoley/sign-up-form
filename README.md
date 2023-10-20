@@ -6,18 +6,15 @@ This project is a simple web page designed for user sign-up with basic CSS anima
 
 - User-friendly sign-up form.
 
-<p align="center">
-  <img src="assets/demo.png" alt="Demo Image">
-</p>
+<div style="display: flex; justify-content: center;">
+    <img src="assets/demo.png" alt="Image 1" style="width: 50%;">
+    <img src="assets/small-screen-demo.png" alt="Image 2" style="width: 50%;">
+</div>
 
 - CSS animations for interactive elements.
 - Validation for matching passwords.
 - Easily customizable using CSS variables.
 - Responsive design for various screen sizes.
-
-<p align="center">
-  <img src="assets/small-screen-demo.png" alt="Phone Screen Demo">
-</p>
 
 ## Usage
 
