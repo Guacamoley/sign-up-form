@@ -9,12 +9,12 @@ This project is a simple web page designed for user sign-up with basic CSS anima
   <img src="assets/demo.png" alt="Demo Image">
 </p>
 - CSS animations for interactive elements.
+- Validation for matching passwords.
+- Easily customizable using CSS variables.
 - Responsive design for various screen sizes.
 <p align="center">
   <img src="assets/small-screen-demo.png" alt="Phone Screen Demo">
 </p>
-- Validation for matching passwords.
-- Easily customizable using CSS variables.
 
 ## Usage
 
