@@ -1,10 +1,9 @@
 # Sign-up Form
 
-This project is a simple web page designed for user sign-up with basic CSS animations.
+This project is a simple web page designed for user sign-up with basic CSS animations. [Live Link](https://guacamoley.github.io/sign-up-form/)
 
-<div style="display: flex; justify-content: center;">
-    <img src="assets/small-screen-demo.png" alt="Image 1">
-    <img src="assets/demo.png" alt="Image 2" >
+<div style="align-items:center">
+    <img src="assets/demo.png" alt="Image 1" >
 </div>
 
 ## Features
